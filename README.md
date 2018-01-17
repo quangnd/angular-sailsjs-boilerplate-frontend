@@ -1,10 +1,4 @@
-# Frontend side for angular-sailsjs-boilerplate
-[![GitHub version](https://badge.fury.io/gh/tarlepp%2Fangular-sailsjs-boilerplate-frontend.svg)](https://badge.fury.io/gh/tarlepp%2Fangular-sailsjs-boilerplate-frontend)
-[![Build Status](https://travis-ci.org/tarlepp/angular-sailsjs-boilerplate-frontend.png?branch=master)](https://travis-ci.org/tarlepp/angular-sailsjs-boilerplate-frontend)
-[![Dependency Status](https://david-dm.org/tarlepp/angular-sailsjs-boilerplate-frontend.svg)](https://david-dm.org/tarlepp/angular-sailsjs-boilerplate-frontend)
-[![devDependency Status](https://david-dm.org/tarlepp/angular-sailsjs-boilerplate-frontend/dev-status.svg)](https://david-dm.org/tarlepp/angular-sailsjs-boilerplate-frontend#info=devDependencies)
-
-This frontend code is used on [angular-sailsjs-boilerplate](https://github.com/tarlepp/angular-sailsjs-boilerplate)
+# Frontend side with Angularjs
 
 This is an example AngularJS application to demonstrate how to use separate back- and frontend applications. Currently
 this demo contains following features:
@@ -60,27 +54,10 @@ Then head to `http://localhost:3001` in your browser.
 The `serve` tasks starts a static file server, which serves the AngularJS application, and a watch task which watches
 all files for changes and lints, builds and injects them into the index.html accordingly.
 
-**Note**: if this error ocurred `Error: Command failed: scss-lint 'src/app/app.scss' 'src/app/styles/_angular.scss' 'src/app/styles/_base.scss'` 
-=> RUN `sudo gem install scss_lint`
-
-## Tests
-
-To run tests run:
+**Note**: if this error ocurred `Error: Command failed: scss-lint 'src/app/app.scss' 'src/app/styles/_angular.scss' 'src/app/styles/_base.scss'`. Run this command
 
 ```bash
-gulp test
-```
-
-**Or** first inject all test files into `karma.conf.js` with:
-
-```bash
-gulp karma-conf
-```
-
-Then you're able to run Karma directly. Example:
-
-```bash
-karma start --single-run
+sudo gem install scss_lint
 ```
 
 ## Production ready build - a.k.a. dist
@@ -102,7 +79,6 @@ gulp production
 
 Then head to `http://localhost:3000` in your browser.
 
-## License
-The MIT License (MIT)
-
-Copyright (c) 2015 Tarmo Leppänen
+--
+References:
+- [angular-sailsjs-boilerplate](https://github.com/tarlepp/angular-sailsjs-boilerplate)
