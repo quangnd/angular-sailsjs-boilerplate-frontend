@@ -79,6 +79,8 @@ gulp production
 
 Then head to `http://localhost:3000` in your browser.
 
+**Note: If you want to login to Example app. You need to run backend first.**
+
 --
 References:
 - [angular-sailsjs-boilerplate](https://github.com/tarlepp/angular-sailsjs-boilerplate)
