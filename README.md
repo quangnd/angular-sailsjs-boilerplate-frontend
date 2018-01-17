@@ -33,6 +33,14 @@ This frontend application uses following 3rd party libraries to make all this ma
 * noty - A jQuery Notification Plugin (https://github.com/needim/noty)
 * Sails JavaScript Client SDK (https://github.com/balderdashy/sails.io.js)
 
+## Install
+
+```bash
+npm install 
+```
+
+The system will install automatically, if error ocurred please run `bower install`
+
 ## Development
 
 To start developing in the project run:
@@ -51,6 +59,9 @@ Then head to `http://localhost:3001` in your browser.
 
 The `serve` tasks starts a static file server, which serves the AngularJS application, and a watch task which watches
 all files for changes and lints, builds and injects them into the index.html accordingly.
+
+**Note**: if this error ocurred `Error: Command failed: scss-lint 'src/app/app.scss' 'src/app/styles/_angular.scss' 'src/app/styles/_base.scss'` 
+=> RUN `sudo gem install scss_lint`
 
 ## Tests
 
